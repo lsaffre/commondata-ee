@@ -61,7 +61,7 @@ Soodi
 
 >>> harju = eesti.children[0]
 >>> tallinn = harju.children[0]
->>> print tallinn.name
+>>> print(tallinn.name)
 Tallinn
 >>> print(', '.join([x.name for x in tallinn.children]))
 ...  #doctest: +NORMALIZE_WHITESPACE

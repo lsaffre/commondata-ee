@@ -21,7 +21,7 @@ Natural Language :: English
 Natural Language :: Estonian
 Operating System :: OS Independent""".splitlines())
 
-SETUP_INFO.update(long_description=file('README.rst').read())
+SETUP_INFO.update(long_description=open('README.rst').read())
 
 SETUP_INFO.update(packages=[str(n) for n in """
 commondata.ee

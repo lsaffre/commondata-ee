@@ -2,7 +2,7 @@ from setuptools import setup
 
 SETUP_INFO = dict(
     name='commondata.ee',
-    version='0.0.1',
+    version='0.0.2',  # released 20160822
     install_requires=['commondata'],
     description="Common data about Estonia",
     license='BSD license',

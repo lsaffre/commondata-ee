@@ -1,15 +1,18 @@
+=============================
 The ``commondata.ee`` package
 =============================
+
+
+
 
 `Common data <https://github.com/lsaffre/commondata>`_ about
 Estonia. Freely available and maintained in Python.
 
-Note: we are discussing whether this package is meaningful.  
-See http://lino-framework.org/tickets/109.html
-
 This currently includes a list of Estonian places with zip codes.
 
 DISCLAIMER: This comes with no warranty at all.
+Note: we are discussing whether this package is meaningful.  
+See http://lino-framework.org/tickets/109.html
 
 Usage examples:
 
@@ -66,3 +69,5 @@ Tallinn
 >>> print(', '.join([x.name for x in tallinn.children]))
 ...  #doctest: +NORMALIZE_WHITESPACE
 Haabersti, Kesklinn, Kristiine, Lasnamäe, Mustamäe, Nõmme, Pirita, Põhja-Tallinn
+
+

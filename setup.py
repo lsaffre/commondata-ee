@@ -3,7 +3,7 @@ from setuptools import setup
 
 SETUP_INFO = dict(
     name='commondata.ee',
-    version='0.0.2',
+    version='0.0.3',
     install_requires=['commondata'],
     description="Common data about Estonia",
     license='BSD license',
@@ -17,7 +17,7 @@ Programming Language :: Python :: 2.6
 Programming Language :: Python :: 2.7
 Development Status :: 4 - Beta
 Intended Audience :: Developers
-License :: OSI Approved :: BSD license
+License :: OSI Approved :: BSD License
 Natural Language :: English
 Natural Language :: Estonian
 Operating System :: OS Independent""".splitlines())

@@ -19,7 +19,6 @@ Development Status :: 4 - Beta
 Intended Audience :: Developers
 License :: OSI Approved :: BSD License
 Natural Language :: English
-Natural Language :: Estonian
 Operating System :: OS Independent""".splitlines())
 
 SETUP_INFO.update(long_description="""

@@ -2,7 +2,6 @@
 # Copyright 2014 Rumma & Ko Ltd
 # License: BSD (see file COPYING for details)
 
-
 from __future__ import unicode_literals
 
 
@@ -474,4 +473,3 @@ def populate(p):
     p.village("Nõmmküla", "94752")
 
     p.municipality("Ruhnu", "")
-

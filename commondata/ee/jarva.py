@@ -2,12 +2,11 @@
 # Copyright 2014 Rumma & Ko Ltd
 # License: BSD (see file COPYING for details)
 
-
 from __future__ import unicode_literals
 
 
 def populate(p):
-    
+
     # Järva (county)
     p.county("Järva", "")
     p.municipality("Türi", "")
@@ -211,4 +210,3 @@ def populate(p):
     p.village("Rutikvere", "72512")
 
     p.municipality("Kolu", "")
-

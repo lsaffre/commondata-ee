@@ -2,13 +2,11 @@
 # Copyright 2014 Rumma & Ko Ltd
 # License: BSD (see file COPYING for details)
 
-
 from __future__ import unicode_literals
 
 
 def populate(p):
 
-    
     # Ida-Viru (county)
     p.county("Ida-Viru", "")
     p.municipality("Lohusuu", "")
@@ -253,5 +251,3 @@ def populate(p):
     p.village("Kuningaküla", "41012")
     p.village("Kaidma", "41206")
     p.village("Ongassaare", "41212")
-
-

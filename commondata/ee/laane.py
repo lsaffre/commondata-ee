@@ -2,13 +2,11 @@
 # Copyright 2014 Rumma & Ko Ltd
 # License: BSD (see file COPYING for details)
 
-
 from __future__ import unicode_literals
 
 
 def populate(p):
 
-    
     # Lääne (county)
     p.county("Lääne", "")
     p.town("Lihula", "")
@@ -260,5 +258,3 @@ def populate(p):
     p.village("Mõrdu", "90716")
     p.village("Leila", "90704")
     p.village("Liivi", "90711")
-
-

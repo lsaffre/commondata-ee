@@ -2,7 +2,6 @@
 # Copyright 2014 Rumma & Ko Ltd
 # License: BSD (see file COPYING for details)
 
-
 from __future__ import unicode_literals
 
 
@@ -180,5 +179,3 @@ def populate(p):
     p.village("Soe", "68408")
     p.village("Puide", "68411")
     p.village("Alamõisa", "68403")
-
-

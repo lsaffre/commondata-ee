@@ -2,7 +2,6 @@
 # Copyright 2014 Rumma & Ko Ltd
 # License: BSD (see file COPYING for details)
 
-
 from __future__ import unicode_literals
 
 
@@ -573,4 +572,3 @@ def populate(p):
     p.municipality("Kirumpää", "")
     p.municipality("Navi", "")
     p.municipality("Meegomäe", "")
-    

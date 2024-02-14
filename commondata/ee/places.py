@@ -62,20 +62,35 @@ def root():
 
     eesti = p.country("Eesti")
 
-    from .harju import populate ; populate(p)
-    from .hiiu import populate ; populate(p)
-    from .idaviru import populate ; populate(p)
-    from .j6geva import populate ; populate(p)
-    from .jarva import populate ; populate(p)
-    from .laane import populate ; populate(p)
-    from .laaneviru import populate ; populate(p)
-    from .p6lva import populate ; populate(p)
-    from .parnu import populate ; populate(p)
-    from .rapla import populate ; populate(p)
-    from .saare import populate ; populate(p)
-    from .tartu import populate ; populate(p)
-    from .valga import populate ; populate(p)
-    from .viljandi import populate ; populate(p)
-    from .v6ru import populate ; populate(p)
-    
+    from .harju import populate
+    populate(p)
+    from .hiiu import populate
+    populate(p)
+    from .idaviru import populate
+    populate(p)
+    from .j6geva import populate
+    populate(p)
+    from .jarva import populate
+    populate(p)
+    from .laane import populate
+    populate(p)
+    from .laaneviru import populate
+    populate(p)
+    from .p6lva import populate
+    populate(p)
+    from .parnu import populate
+    populate(p)
+    from .rapla import populate
+    populate(p)
+    from .saare import populate
+    populate(p)
+    from .tartu import populate
+    populate(p)
+    from .valga import populate
+    populate(p)
+    from .viljandi import populate
+    populate(p)
+    from .v6ru import populate
+    populate(p)
+
     return eesti
